@@ -1,0 +1,12 @@
+from numpy import *
+arr = array([33,44,55,66,77,88])
+print("arr=", arr)
+print("sine =",sin(arr))
+print("cos =",cos(arr))
+print("tan =",tan(arr))
+print("log =",log(arr))
+print("sqrt =",sqrt(arr))
+print("max =",max(arr))
+print("min =",min(arr))
+arr1 = array([11,22,33,44,55,66])
+print("Concatenated",arr," and",arr1,"=",concatenate([arr,arr1]))
